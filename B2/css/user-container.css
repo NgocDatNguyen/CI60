@@ -1,0 +1,53 @@
+.user-container {
+    width: 200px;
+    border: 2px solid #ccc;
+}
+
+.user-container .user-avatar {
+    height: 300px;
+    width: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZwUgVD6hFpJEnSzNsl0vcOYcw8ftK3ifIQ&usqp=CAU');
+    background-repeat: no-repeat;
+}
+
+.info {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.user-name {
+}
+
+.user-gender{
+    background-color: blue;
+    width: 45px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.user-info {
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.user-info .country {
+    background-color: aquamarine;
+    padding: 2px 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.user-info .phoneNumber{
+    background-color: cyan;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.user-favorites {
+    margin-bottom: 20px;
+}
